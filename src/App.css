@@ -1,9 +1,12 @@
 .App {
-  text-align: center;
   width: 50%;
   margin: auto;
-  padding: 3%;
-  border: 2px solid black;
+  min-width: 1000px;
+}
+
+body {
+  background-color: gray;
+  color: gray;
 }
 
 .detail-row {
@@ -14,6 +17,7 @@
 img {
   width: 100%;
   display: block;
+  height: 500px;
 }
 
 iframe{
